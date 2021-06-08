@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+body{
+    background-color: #f1f1f1;
+    font-family:'Roboto', sans-serif;
+    color: #757575;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+main > div{
+    width: 65%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
+main section,main aside{
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+main > aside{
+    width: 33%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 100%; /*sual: bura 100% qoymasam tam goturur yandakinin height qeder*/
+}
+main section{
+    padding: 30px 20px;
+    box-sizing: border-box;
+    
+}
+main section article{
+    margin: 30px 15px;
+    padding-bottom: 20px;
+}
+section article:nth-of-type(-n+2), #info>div:first-child{
+    border-bottom: 1px solid #dad8d8;
+}
+main h4,main i{
+    color: #009688;
+}
+main h3, main h4{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+main p{
+    padding-top: 5px;
+    color: black;
+}
+main h2{
+    font-size: 30px;
+}
+main span#current{
+    background-color: #009688;
+    padding: 3px 8px;
+    border-radius: 5px;
+    color: white;
+}
+div section:first-child{
+    margin-bottom: 20px;
+}
+#profile-heading{
+    position: relative;
+}
+img{
+    width: 100%;
+}
+#name{
+    position: absolute;
+    bottom: 20px;
+    left: 13px;
+    color: black;
+}
+#info{
+    padding: 20px;
+    
+}
+#info *{
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+div#progress-container{
+    background-color: #e0e6e6;
+    border-radius: 18px;
+    height: 20px;
+}
+div.progress{
+    background-color:#009688;
+    border-radius: 18px;
+    color: white;
+    text-align: center;
+    height: 100%;
+}
+div.progress-size-1{
+    width: 90%;
+}
+div.progress-size-2{
+    width: 80%;
+}
+div.progress-size-3{
+    width: 75%;
+}
+div.progress-size-4{
+    width: 50%;
+}
+div#skills > *{
+    padding-bottom: 8px;
+}
+div#lang-progress-container{
+    background-color: #e0e6e6;
+    border-radius: 18px;
+    height: 26px;
+}
+div.progress-size-5{
+    width: 30%;
+}
+div#languages > div{
+    padding-bottom: 8px;
+}
+footer{
+    background-color: #009688;
+    color: white;
+}
+footer > *{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+footer i:hover{
+    color:#b8b6b6;
+}
