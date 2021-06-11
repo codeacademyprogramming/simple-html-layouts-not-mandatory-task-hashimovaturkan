@@ -196,7 +196,6 @@ div.img-map img{
     width: 100%;
     filter: grayscale(75%);
     margin-bottom: 50px;
-    z-index: -1;
 }
 form{
     display: flex;
@@ -245,6 +244,7 @@ menu{
     position: fixed;
     right: 0%;
     top:10px;
+    z-index: 1;
 }
 menu span{
     font-size: 40px;
@@ -299,4 +299,5 @@ div#menu span{
 div#menu span:hover{
     background-color: rgb(167, 165, 165);
 }
+
 
