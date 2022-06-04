@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="profile-photo"></div>
+        <div id="container">
+            <menu>
+                <label>
+                    <input type="checkbox" style="display: none;">
+                    <span>
+                        <i class="fa fa-bars"></i>
+                    </span>
+                    <div id="menu">
+                        <span>
+                            <i class="fa fa-remove"></i>
+                        </span>
+                        <nav>
+                            <!--Note: burda linke(a) tikliyanda menu'nu yox ede bilmediyime gore blank istifade
+                            edib bashqa sehifede acmagi cixish yolu kimi secdim, effektiv deyil bilirem...-->
+                            <ul>
+                                <li><a href="#" target="_blank">Home</a></li>
+                                <li><a href="#my-portfolio" target="_blank">Portfolio</a></li>
+                                <li><a href="#about" target="_blank">About</a></li>
+                                <li><a href="#contact-me" target="_blank">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </label>
+            </menu>
+            <main>
+                <header>
+                    <h1>Jane Doe</h1>
+                    <h4>Photographer and Web Designer.</h4>
+                    <button>
+                        <i class="fa fa-download"></i>
+                        Download Resume
+                    </button>
+                </header>
+                <section id="my-portfolio">
+                    <h2>My Portfolio</h2>
+                    <div id="photos">
+                        <div>
+                            <img src="./assets/img/wedding.jpg" alt="weeding">
+                            <img src="./assets/img/rocks.jpg" alt="rocks">
+                            <img src="./assets/img/sailboat.jpg" alt="sailboat">
+                        </div>
+                        <div>
+                            <img src="./assets/img/underwater.jpg" alt="underwater">
+                            <img src="./assets/img/chef.jpg" alt="chef">
+                            <img src="./assets/img/wedding.jpg" alt="weeding">
+                            <img src="./assets/img/p6.jpg" alt="p6">
+                        </div>
+                    </div>
+                </section>
+                <section id="about">
+                    <h2>About</h2>
+                    <p>
+                        Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </section>
+                <section id="my-skills">
+                    <h2>My Skills</h2>
+                    <div>
+                        <p>
+                            Photography
+                        </p>
+                        <div id="progress-container">
+                            <div class="progress progress-size-1">
+                                95%
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>
+                            Web Design
+                        </p>
+                        <div id="progress-container">
+                            <div class="progress progress-size-2">
+                                85%
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>
+                            Photoshop
+                        </p>
+                        <div id="progress-container">
+                            <div class="progress progress-size-3">
+                                80%
+                            </div>
+                        </div>
+                    </div>
+                    <div id="results">
+                        <div>
+                            <p>14+</p>
+                            <p>Partners</p>
+                        </div>
+                        <div>
+                            <p>55+</p>
+                            <p>Projects Done</p>
+                        </div>
+                        <div>
+                            <p>89+</p>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div>
+                            <p>150+</p>
+                            <p>Meetings</p>
+                        </div>
+                    </div>
+                    <button>
+                        <i class="fa fa-download"></i>
+                        Download Resume
+                    </button>
+                </section>
+                <section id="my-reputation">
+                    <h2>My Reputation</h2>
+                    <div>
+                        <img src="./assets/img/avatar_smoke.jpg" alt="avatar smoke">
+                        <div>
+                            <span id="user-name">Chandler Bing.</span>
+                            <span id="user-work">Web Designer.</span>
+                            <p id="feedback">Jane Doe is just awesome. I am so happy to have met her!</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./assets/img/bandmember.jpg" alt="bandmember">
+                        <div>
+                            <span id="user-name">Chris Fox.</span>
+                            <span id="user-work"> CEO at Mighty Schools.</span>
+                            <p id="feedback">Jane Doe saved us from a web disaster. </p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./assets/img/avatar_g2.jpg" alt="avatar">
+                        <div>
+                            <span id="user-name">Rebecca Flex.</span>
+                            <span id="user-work">CEO at Company.</span>
+                            <p id="feedback">No one is better than Jane Doe.</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="my-price">
+                    <h2>My Price</h2>
+                    <div>
+                        <div id="price-section">
+                            <p class="price-heading-1">Basic</p>
+                            <div>Web Design</div>
+                            <div>Photography</div>
+                            <div>5GB Storage</div>
+                            <div>Mail Support</div>
+                            <div>
+                                <div class="dollar">$ 10</div>
+                                per month
+                            </div>
+                            <div>
+                                <button class="sign-up">
+                                    Sign Up
+                                </button>
+                            </div>
+                        </div>
+                        <div id="price-section">
+                            <p class="price-heading-2">Pro</p>
+                            <div>Web Design</div>
+                            <div>Photography</div>
+                            <div>50GB Storage</div>
+                            <div>Endless Support</div>
+                            <div>
+                                <div class="dollar">$ 25</div>
+                                per month
+                            </div>
+                            <div>
+                                <button class="sign-up">
+                                    Sign Up
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="contact-me">
+                    <h2>Contact Me</h2>
+                    <div>
+                        <div class="tel-mail-address">
+                            <div>
+                                <i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>
+                                Chicago, US
+                            </div>
+                            <div>
+                                <i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i>
+                                Phone: +00 151515
+                            </div>
+                            <div>
+                                <i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i>
+                                Email: mail@mail.com
+                            </div>
+                        </div>
+                        <div class="img-map">
+                            <img src="./assets/img/map.jpg" alt="Map">
+                        </div>
+                        <div class="form-contact">
+                            <form>
+                                <label >Lets get in touch. Send me a message:</label>
+                                <input type="text" placeholder="Name" required>
+                                <input type="email" placeholder="Email" required>
+                                <input type="text" placeholder="Subject" required>
+                                <input type="text" placeholder="Message" required>
+                                <button type="submit">
+                                    <i class="fa fa-paper-plane"></i>
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <div>
+                    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                    <i class="fa fa-instagram w3-hover-opacity"> </i>
+                    <i class="fa fa-snapchat w3-hover-opacity"></i>
+                    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                    <i class="fa fa-twitter w3-hover-opacity"></i>
+                    <i class="fa fa-linkedin w3-hover-opacity"></i>
+                </div>
+                <p>
+                    Powered by
+                    <a href="https://www.w3schools.com/">w3.css</a>
+                </p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
